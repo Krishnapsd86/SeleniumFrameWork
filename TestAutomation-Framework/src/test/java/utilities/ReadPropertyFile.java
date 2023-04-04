@@ -10,7 +10,7 @@ public class ReadPropertyFile {
 		// TODO Auto-generated method stub
 		
 		//set fileReader
-		FileReader fr = new FileReader("C:\\Users\\krish\\eclipse-workspace\\SeleniumFrameWork\\TestAutomation-Framework\\src\\test\\resources\\configFiles\\config.properties");
+		FileReader fr = new FileReader(System.getProperty("user.dir")+"\\src\\test\\resources\\configFiles\\config.properties");
 		
 		//set properties
 		Properties p = new Properties();

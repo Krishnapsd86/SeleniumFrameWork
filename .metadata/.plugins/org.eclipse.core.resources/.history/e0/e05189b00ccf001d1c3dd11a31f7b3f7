@@ -1,0 +1,3 @@
+Username = input[placeholder=\\"Username\\"
+Password = input[placeholder=\\"Password\\"
+Login_Button = button[type=\\"submit\\"]
